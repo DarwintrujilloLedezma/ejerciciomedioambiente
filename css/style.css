@@ -1,0 +1,121 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*INICIA DE ESTILOS DEL HEADER*/
+
+header {
+
+    position: relative;
+    width: 100%;
+
+}
+
+header nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul{
+
+    display: flex;
+    
+}
+
+header nav ul li{
+
+    margin: 5px 15px;
+    list-style: none;
+}
+
+header nav #logo a img{
+
+    width: 150px;
+}
+/*Diseno del panel principal*/
+nav ul li a{ 
+
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: .5s;
+}
+
+header #hero{
+
+    width: 100%;
+    position: relative;
+
+}
+header #hero h1 {
+
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 2px 0px black;
+    background: #0000005d;
+    font-size: 60px;
+    padding: 30px 0;
+
+}
+
+
+header #hero img{
+
+    width: 100%;
+}
+/*El efecto hover es para arrojar efecto visual al panel principal*/
+nav ul li a:hover{
+
+    background: #ffffff;
+    color: #ffffff;
+}
+
+/*FINALIZA EL ESTILO HEADER*/
+
+
+/*INICIA MAIN*/
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+main #welcome{
+    background: #ffffff;
+    width: 100%;
+}
+
+main #welcome .row{
+    background: #ffffff;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+main #welcome .row #contText{
+    width: 40%;
+    padding: 240px 0;
+}
+
+main #welcome .row #contImg{
+    width: 40%;
+    padding: 50px 0;
+}
+
+
+
+
+
